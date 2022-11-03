@@ -1,0 +1,202 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+nav{
+    display: flex;
+    background-color: rgb(155, 6, 6);
+    justify-content: space-around;
+}
+nav ul{
+   display: flex;
+   list-style: none;
+   text-align: left;   
+}
+nav ul li a{
+   text-decoration: none;
+   color: white;
+   text-align: center;
+   font-size: 13px;
+}
+nav li {
+   color: whitesmoke;
+   padding: 10px;
+   text-decoration: none; 
+   text-align: right;
+   font-size: 14px;
+}
+nav li a:hover{
+   color: tomato;
+}
+.comment{
+    text-align: center;
+    margin-right: 8%;
+    margin-left: 8%;
+    padding: 3em;
+}
+h1{
+    font-size: 60px;
+    font-weight: bold;
+    color: rgb(54, 54, 117);
+}
+.button{
+    padding: 1em;
+    width: 100px;
+    text-align: center;
+    color: white;
+    background-color: rgb(206, 7, 7);
+    border: 1px solid rgb(206, 7, 7);
+}
+button{
+    padding: 8px;
+    width: 90px;
+    text-align: center;
+    color: white;
+    background-color: rgb(206, 7, 7);
+    border: 1px solid rgb(206, 7, 7);
+}
+button:hover{
+    opacity: 0.8;
+}
+.container{
+    display: grid;
+    grid-template-areas: 
+    'header header header header'
+    'car car car car'
+    'car car car car'
+    'footer footer footer footer'
+;
+
+    width: 80%;
+    margin-right: 7%;
+    margin-left: 7%;
+    grid-gap: 6px 10px;
+}
+/*
+.container img:hover{
+        transition-duration: 0.8s;
+        opacity: 0.8;
+        transform: scale(0.98);
+}
+*/
+.series{
+    border-radius: 5px;
+   /* margin-top: 50px;
+    border: 1px solid silver;
+    padding: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);*/
+}
+.series:hover{
+    transition-duration: 0.8s;
+    opacity: 0.8;
+    transform: scale(0.98);
+}
+span{
+    color: rgb(206, 7, 7);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+/*
+#active{
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    background-color: rgb(206, 7, 7);
+    padding: 8px 20px;
+}
+#active:hover{
+    background-color: rgb(233, 10, 10);
+    padding: 10px 22px;
+}
+*/
+#myDialogBox1{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox2{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 360px;
+    margin-top: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox3{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 670px;
+    margin-top: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox4{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 950px;
+    margin-top: 400px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox5{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 800px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox6{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 370px;
+    margin-top: 800px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox7{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 650px;
+    margin-top: 800px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+#myDialogBox8{
+    background-color:#F4FFEF;
+    position: absolute;
+    margin-left: 990px;
+    margin-top: 800px;
+    border: none;
+    box-shadow: 0px 0px 5px 0px rgb(70, 68, 68);
+    padding: 2em;
+}
+.text{
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 0;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding: 10px;
+    font-size: 16px;
+}
+footer{
+    background-color: rgb(155, 6, 6);
+    padding: 10px;
+    color: white;
+    text-align: center;
+}

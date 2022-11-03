@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="cars.js"></script>
+</head>
+
+<body onload="myCars()">
+     <nav>
+         <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="collection">Collection</a></li>
+              <li><a href="gallary">Gallary</a></li>
+              <li><a href="blog">Blog</a></li>
+              <li><a href="contact">Contac Us</a></li>
+        </ul>
+     </nav>
+    <div class="comment">
+         <h1>.Pick&nbsp;&nbsp; .Choose  &nbsp;&nbsp;.Sellect</h1>
+         <button class="button">More</button>
+         <button class="button">Buy</button>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit, necessitatibus! Fugit impedit placeat praesentium velit odio porro voluptates. <br>Sunt quaerat dicta consequatur, in dignissimos error repudiandae optio quis ipsum dolores?</p>
+    </div>   
+        <div class="container">
+            <div class="car">
+                <a href="#" id="showMore" onclick="car1()"><img class="series" src="cars/Audi-A1-13.jpg" width="300" height="250"></a>
+                <p><span>Audi,</span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+<!------------------ <a href="#" id="active" onclick ="show()">ShowMore</a> ----------->  
+            </div>
+            <dialog id="myDialogBox1"  height="250"> 
+               <img src="cars/Audi-A1-13.jpg" width="300" height="250"><br><br>
+                 <p> <b>Brand: </b>A1<br>
+                    <b>Model: </b>Audi A1 (2021) Review<br>
+                    <b>Colour: </b> Red<br>
+                    <b>RegNum: </b> CAA-215-677<br>
+                    <b>Price: </b> R204 500<br>
+                    <b>Transmission:</b> 10-speed automatic<br>
+                    <b>Fuel efficiency:</b> 7.5 L/100 km (claimed)<br>
+                    <b>Towing capacity:</b> 3 500 kg (braked)
+                </p>
+                <button id="hide" onclick ="alert('close')">OK</button>
+             </dialog>  
+             <div class="car">
+                <a href="#"onclick="car2()"><img class="series" src="cars/Audi-RS4-3.jpeg" width="300" height="250"></a>
+                <p><span>Audi RS4 Avant, </span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+            
+                <dialog id="myDialogBox2"  height="250"> 
+                    <img src="cars/Audi-RS4-3.jpeg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>RS4 Avant<br>
+                        <b>Model: </b>Audi<br>
+                        <b>Colour: </b>Grey<br>
+                        <b>RegNum: </b>CAA-215-677<br>
+                        <b>Price: </b>R1 296 000<br>
+                        <b>Transmission:</b> 8-speed automatic<br>
+                        <b>Fuel efficiency:</b> 9.2 L/100 km (claimed)<br>
+                        <b>​Load capacity:</b> 495/1 495 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+
+            <div class="car">
+                <a href="#" onclick="car3()"><img class="series" src="cars/Mercedes-AMG-E53-10.jpg" width="300" height="250"></a>
+                <p><span>Mercedes-AMG-E53-10, </span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+                <dialog id="myDialogBox3"  height="250"> 
+                    <img src="cars/Mercedes-AMG-E53-10.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>E53 Coupe 4Matic+<br>
+                        <b>Model: </b>Mercedes-AMG<br>
+                        <b>Colour: </b> Silver<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b> R1 630 600 (May 2021)<br>
+                        <b>Transmission:</b> 9-speed TCT automatic<br>
+                        <b>Fuel efficiency:</b> 8.8 L/100 km<br>
+                        <b>Load space:</b> 425 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+            <div class="car">
+                <a href="#" onclick="car4()"><img class="series" src="cars/Lexus-IS-350h-1.jpg" width="300" height="250"></a>
+                <p><span>Lexus-IS-350h-1, </span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+                <dialog id="myDialogBox4"  height="250"> 
+                    <img src="cars/Lexus-IS-350h-1.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>F Sport<br>
+                        <b>Model: </b>Lexus IS300h<br>
+                        <b>Colour: </b> Grey<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b> R935 200 (July 2021)<br>
+                        <b>Transmission:</b> Continuously variable (automatic)<br>
+                        <b>Fuel efficiency:</b> 5.2 L/100 km (claimed)<br>
+                        <b>Load space:</b> 450 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+
+            <div class="car">
+                <a href="#" onclick="car5()"><img class="series" src="cars/Hyundai-Santa-Fe-2021-25.jpg" width="300" height="250"></a>
+                <p><span>Hyundai-Santa-Fe-2021-25, </span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+                <dialog id="myDialogBox5"  height="250"> 
+                    <img src="cars/Hyundai-Santa-Fe-2021-25.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>Santa Fe 2.2D 4WD Elite<br>
+                        <b>Model: </b>Hyundai<br>
+                        <b>Colour: </b> Silver<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b> R869 500 (July 2021)<br>
+                        <b>Transmission:</b> 8-speed automatic<br>
+                        <b>Fuel efficiency:</b> 7.9 L/100 km (claimed)<br>
+                        <b>​Load space:</b> 332/1 032/ 2 041 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+            <div class="car">
+                <a href="#" onclick="car6()"><img class="series" src="cars/Honda-Fit21-12.jpg" width="300" height="250"></a>
+                <p><span>Honda-Fit21-12, </span>dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+                <dialog id="myDialogBox6"  height="250"> 
+                    <img src="cars/Honda-Fit21-12.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>1.5 Elegance<br>
+                        <b>Model: </b>Honda Fit<br>
+                        <b>Colour: </b> Red<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b> R359 900<br>
+                        <b>Transmission:</b> CVT<br>
+                        <b>Fuel efficiency:</b> 5.5 L/100 km (claimed)<br>
+                        <b>Load capacity:</b> 309-849-1210 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+            <div class="car">
+                <a href="#" onclick="car7()"><img class="series" src="cars/Ford-Ranger-FX4-1_3-scaled.jpg" width="300" height="250"></a>
+                <p><span>Ford Ranger, </span> dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>   
+            </div>   
+                <dialog id="myDialogBox7"  height="250"> 
+                    <img src="cars/Ford-Ranger-FX4-1_3-scaled.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>2.0SiT Double-Cab XLT FX4<br>
+                        <b>Model: </b>Ford Ranger 4x4<br>
+                        <b>Colour: </b> Red<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b>R509 620 <br>
+                        <b>Transmission:</b> 7-spd dual-clutch automatic<br>
+                        <b>Fuel Consumption:</b> 4.8 L/100 km <br>
+                        <b>Load capacity:</b> 335 litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>   
+
+            <div class="car">
+                <a href="#" onclick="car8()"><img class="series" src="cars/21Kia-Pegas-8.jpg" width="300" height="250"></a>
+                <p><span>Kia Pegas, </span>dolor sit amet consectetur adipisicing elit. Nam consequuntur rerum sapiente impedit itaque magni omnis aliquid! Harum maiores numquam sunt facere!</p>
+            </div>
+                <dialog id="myDialogBox8"  height="250"> 
+                    <img src="cars/21Kia-Pegas-8.jpg" width="300" height="250"><br><br>
+                    <p> <b>Brand: </b>1.4 EX<br>
+                        <b>Model: </b>Kia Pegas<br>
+                        <b>Colour: </b> White<br>
+                        <b>RegNum: </b> CAA-215-677<br>
+                        <b>Price: </b> R236 995<br>
+                        <b>Transmission:</b> 5-speed manual gearbox<br>
+                        <b>Fuel efficiency:</b> 5.7 L/100 km (claimed) <br>
+                        <b>Load capacity:</b> 475 Litres
+                    </p>
+                    <button id="hide">OK</button>
+                </dialog>
+
+        </div> 
+           <p class="text">Quality it is our life style!</p>
+        <footer>
+            <p>@ 2021 HyperionDev | Copyright Richard</p>
+        </footer>
+</body>
+
+</html>
